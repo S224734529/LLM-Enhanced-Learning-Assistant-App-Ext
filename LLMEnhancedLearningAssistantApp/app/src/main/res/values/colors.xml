@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_top">#11D9F6</color>
+    <color name="blue_bottom">#1492F7</color>
+    <color name="green_action">#00FF66</color>
+    <color name="card_blue">#0676F8</color>
+    <color name="chip_blue">#18C9F4</color>
+    <color name="dark_text">#050505</color>
+    <color name="white">#FFFFFF</color>
+</resources>

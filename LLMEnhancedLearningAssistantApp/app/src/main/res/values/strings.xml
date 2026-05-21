@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LLM-Enhanced Learning Assistant App</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorAccent">@color/green_action</item>
+    </style>
+</resources>

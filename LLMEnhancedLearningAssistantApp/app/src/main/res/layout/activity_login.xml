@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome,\nStudent!"
+        android:textColor="@color/dark_text"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lets Start Learning!"
+        android:textColor="@color/dark_text"
+        android:textStyle="bold"
+        android:layout_marginBottom="80dp" />
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Username"
+        android:background="@drawable/input_box"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:hint="Password"
+        android:background="@drawable/input_box"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_green"
+        android:text="Login"
+        android:textColor="@color/dark_text"
+        android:textStyle="bold"
+        android:contentDescription="Login to learning assistant" />
+
+    <TextView
+        android:id="@+id/signupLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Need an Account?"
+        android:textColor="@color/dark_text"
+        android:textStyle="bold"
+        android:layout_marginTop="18dp"
+        android:contentDescription="Open account setup screen" />
+</LinearLayout>
